@@ -1,0 +1,36 @@
+/* Start Variables*/
+/* End Variables*/
+/* Global Rules */
+*{
+    -webkit-box-sizing:border-box ;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+}
+@media (min-width: 992px) {
+    .containar{
+        width: 970px;
+    }
+}
+@media (min-width: 768px) {
+    .containar{
+        width: 750px;
+    }
+}
+@media (min-width: 1200px) {
+    .containar{
+        width: 1170px;
+    }
+}
+.containar{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* End Rules */
