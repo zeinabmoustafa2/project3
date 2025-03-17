@@ -34,3 +34,61 @@ body{
     margin-left: auto;
 }
 /* End Rules */
+/*Start Header*/
+body {
+  margin: 0;
+}
+.nav-1 {
+  color : #FFFFFF;
+  background: #11BA92;
+}
+/*End Header*/
+/*Start Landing Section*/
+.landing {
+  background-color: #11BA92;
+  background-size: cover;
+  height: calc(100vh - 64px);
+  position: relative;
+}
+.landing .intro-text {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  width: 320px;
+  max-width: 100%;
+}
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+.landing .intro-text h1 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 50px;
+  color : #FFFFFF;
+}
+.services-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+.dot {
+  width: 100px;
+  height: 2px;
+  background-color: #FFFFFF;
+}
+.services i {
+  color: white;
+}
+.landing .intro-text p {
+  font-size: 19px;
+  line-height: 1.8;
+  color : #FFFFFF;
+}
+/*End Landing Section*
